@@ -77,7 +77,7 @@ f!color / لي تغير لونك』
 **
 ***Join Bot Server GiveAways Today***
 ** https://discord.gg/xJ57bXY **
-   
+  ***https://discord.gg/7yDNGMq*** 
         
 `)
 
