@@ -792,7 +792,7 @@ client.on("message", (message) => {
  **
 **
 ***Bot Link***
-https://discordapp.com/api/oauth2/authorize?client_id=459345417692512256&permissions=2146958583&scope=bot
+https://discordapp.com/api/oauth2/authorize?client_id=462564533450440715&permissions=0&scope=bot
  **
 `);
   message.author.sendEmbed(embed);
@@ -810,7 +810,7 @@ https://discordapp.com/api/oauth2/authorize?client_id=459345417692512256&permiss
  .setDescription(" ***welcome To server support*** " + `
  **
 ***Server Link ***
-https://discord.gg/mVrmaDH
+https://discord.gg/7yDNGMq
  **
 `);
   message.author.sendEmbed(embed);
@@ -1210,88 +1210,8 @@ client.on('ready', function(){
 
 });
 
-client.on("message", message => {
-                            const Premium = ['','']//ايديات السيرفرات اللي عندها بريميوم
-                            if (message.content === "f!color") {
-                                if( Premium.some(word => message.guild.id.includes(word)) ) {
-
-        message.channel.send('@here Premium Only :upside_down:')
-
-                                } else {
-   message.channel.send('Premium Only! :upside_down:').then(message => {message.delete(1000)});
-}
-                          }
-                      });
-                      
-client.on("message", message => {
-                            const Premium = ['','']//ايديات السيرفرات اللي عندها بريميوم
-                            if (message.content === "f!color 140") {
-                                if( Premium.some(word => message.guild.id.includes(word)) ) {
-
-        message.channel.send('@here Premium Only :upside_down:')
-
-                                } else {
-   message.channel.send('Premium Only! :upside_down:').then(message => {message.delete(1000)});
-}
-                          }
-                      });
-                      
-client.on("message", message => {
-                            const Premium = ['','']//ايديات السيرفرات اللي عندها بريميوم
-                            if (message.content === "f!color 100") {
-                                if( Premium.some(word => message.guild.id.includes(word)) ) {
-
-        message.channel.send('@here Premium Only :upside_down:')
-
-                                } else {
-   message.channel.send('Premium Only! :upside_down:').then(message => {message.delete(1000)});
-}
-                          }
-                      });                 
-
-client.on("message", message => {
-                            const Premium = ['','']//ايديات السيرفرات اللي عندها بريميوم
-                            if (message.content === "f!color 50") {
-                                if( Premium.some(word => message.guild.id.includes(word)) ) {
-
-        message.channel.send('@here Premium Only :upside_down:')
-
-                                } else {
-   message.channel.send('Premium Only! :upside_down:').then(message => {message.delete(1000)});
-}
-                          }
-                      });
-
-client.on("message", message => {
-                            const Premium = ['','']//ايديات السيرفرات اللي عندها بريميوم
-                            if (message.content === "f!colors") {
-                                if( Premium.some(word => message.guild.id.includes(word)) ) {
-
-        message.channel.send('@here Premium Only :upside_down:')
-
-                                } else {
-   message.channel.send('Premium Only! :upside_down:').then(message => {message.delete(1000)});
-}
-                          }
-                      });
 
 
-
-client.on("guildMemberAdd", member => {
-  member.createDM().then(function (channel) {
-  return channel.send(` 
-**
-و ايضا ادا تريد فلوس ادخل السيرفر دا
-و دخل 20 من طرفك عشان تاخد 
-10$
-و كمل المصابرة 60 واحد و خد 
-30$ و اشتري حساب ماين كرافت او اي شي اني
-و يدفعون لك عن طريق الباي بال
-https://discord.gg/vnhyH3
-الدعووة خاصة لك ي قلبي  [ ${member}  ]
-**`) 
-}).catch(console.error)
-})
 
 client.on('message', msg => {
   if (msg.content === 'هلا') {
