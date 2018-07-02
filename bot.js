@@ -14,7 +14,7 @@ client.on("message", message => {
       .setColor("#ffff00")
       .setThumbnail(message.author.avatarURL)
       .setDescription(`
-***Welcome To Star-Bot Help_***
+***Welcome To Bot Help_***
 ***
 لاوامر الخاصة بالبوت
 ملاحضة***
@@ -76,7 +76,7 @@ f!color / لي تغير لونك』
 !لعبه اسئله / كت تويت』
 **
 ***Join Bot Server GiveAways Today***
-** https://discord.gg/xJ57bXY **
+**  **
   ***https://discord.gg/7yDNGMq*** 
         
 `)
