@@ -14,7 +14,7 @@ client.on("message", message => {
       .setColor("#ffff00")
       .setThumbnail(message.author.avatarURL)
       .setDescription(`
-***Welcome To Star-Bot Help_***
+***Welcome To Bot Help***
 ***
 لاوامر الخاصة بالبوت
 ملاحضة***
@@ -75,9 +75,13 @@ f!color / لي تغير لونك』
 !يعطيك عقاب و لازم تنفذه / عقاب』
 !لعبه اسئله / كت تويت』
 **
-***Join Bot Server GiveAways Today***
-** https://discord.gg/xJ57bXY **
+***Join Bot Server support***
+
   ***https://discord.gg/7yDNGMq*** 
+
+        *** Add Bot to Server ***
+
+***https://discordapp.com/api/oauth2/authorize?client_id=462564533450440715&permissions=0&scope=bot***
         
 `)
 
@@ -230,7 +234,7 @@ const Za7f = [
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
    .setThumbnail(message.author.avatarURL) 
- .addField('WOlF BOT' ,
+ .addField('TheLegends bot' ,
   `${Za7f[Math.floor(Math.random() * Za7f.length)]}`)
   message.channel.sendEmbed(embed);
   console.log('[38ab] Send By: ' + message.author.username)
